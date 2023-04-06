@@ -196,7 +196,7 @@ def vykladachi(update: Update, context: CallbackContext):
 
     reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
     query.message.reply_text(
-        text=content, reply_markup=reply, parse_mode="Markdown")
+        text=content, reply_markup=reply, parse_mode="HTML")
 
 
 def perevagu(update: Update, context: CallbackContext):
