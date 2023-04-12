@@ -225,8 +225,7 @@ def perevagu(update: Update, context: CallbackContext):
         content_lines[60:]), parse_mode="HTML")  
     query.message.reply_photo(link + photos[1])
     #reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
-    #query.message.reply_text(
-        text=content, reply_markup=reply, parse_mode="HTML")
+    #query.message.reply_text(text=content, reply_markup=reply, parse_mode="HTML")
     
 
 def istoria(update: Update, context: CallbackContext):
