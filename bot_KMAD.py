@@ -211,14 +211,17 @@ def perevagu(update: Update, context: CallbackContext):
     query.answer()
     reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
     query.message.reply_text(text='\n'.join(
-        content_lines[0:15]), parse_mode="HTML")
+        content_lines[0:13]), parse_mode="HTML")
     query.message.reply_photo(link + photos[0])
     query.message.reply_text(text='\n'.join(
-        content_lines[15:-1]), parse_mode="HTML")
+        content_lines[13:-1]), parse_mode="HTML")
     query.message.reply_photo(link + photos[1])
     
     query.message.reply_text(text='\n'.join(
-        content_lines[-2]), parse_mode="HTML")
+        content_lines[-1]), parse_mode="HTML")
+    reply = InlineKeyboardMarkup(keyboard_backto_perevagu)
+    query.message.reply_text(
+        text=content, reply_markup=reply, parse_mode="HTML")
     
 
 def istoria(update: Update, context: CallbackContext):
