@@ -1,2 +1,5 @@
-images/m_p_00.jpg
-images/m_p_01.jpg
+images/m_p_00.png
+images/m_p_01.png
+images/m_p_02.png
+images/m_p_03.png
+images/m_p_04.png
