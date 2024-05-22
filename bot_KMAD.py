@@ -357,8 +357,16 @@ def pratsevlashuv(update: Update, context: CallbackContext):
     query = update.callback_query
     query.answer()
     reply = InlineKeyboardMarkup(keyboard_backto_mozhlyvosti)
-    query.message.reply_text(text=content, parse_mode="HTML")
-    query.message.reply_photo(link + photos[0],reply_markup=reply)
+    #query.message.reply_text(text=content, parse_mode="HTML")
+    #query.message.reply_photo(link + photos[0],reply_markup=reply)
+    query.message.reply_photo(link + photos[0])
+    query.message.reply_text(text='\n'.join(
+        content_lines[0:6]), parse_mode="HTML")
+    query.message.reply_text(text='\n'.join(
+        content_lines[8:21]), parse_mode="HTML")
+    query.message.reply_photo(link + photos[1])
+    query.message.reply_text(text='\n'.join(
+        content_lines[28:32]),reply_markup=reply, parse_mode="HTML")
 
 
 def praktika(update: Update, context: CallbackContext):
