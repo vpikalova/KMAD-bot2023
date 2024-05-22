@@ -451,7 +451,7 @@ def kilkistMists(update: Update, context: CallbackContext):
 
 
 def question(update, context):
-    update.callback_query.message.reply_text('[Напишіть нашому представнику кафедри](https://t.me/kmad_khpi/) або приєднайтеся до [Інформаційної групи для абітурієнтів  кафедри](https://t.me/+mpwNrmMVtzMzZmNi), де зможете отримати відповіді на всі запитання, які вас цікавлять',
+    update.callback_query.message.reply_text('[Напишіть нашому представнику кафедри](https://t.me/+380971134519) або приєднайтеся до [Інформаційної групи для абітурієнтів  кафедри](https://t.me/kmadchannel), де зможете отримати відповіді на всі запитання, які вас цікавлять',
                                              parse_mode="Markdown", disable_web_page_preview=False)
 
 
