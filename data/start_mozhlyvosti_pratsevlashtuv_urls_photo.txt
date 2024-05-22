@@ -1,2 +1,2 @@
-images/m_p_00.png
-images/m_p_01.png
+images/r_p_00.png
+images/r_p_01.png
