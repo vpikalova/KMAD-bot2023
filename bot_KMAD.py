@@ -220,20 +220,20 @@ def perevagu(update: Update, context: CallbackContext):
     query.message.reply_text(text='\n'.join(
         content_lines[15:22]), parse_mode="HTML")
     query.message.reply_text(text='\n'.join(
-        content_lines[23:24]), parse_mode="HTML")
+        content_lines[22:24]), parse_mode="HTML")
     query.message.reply_text(text='\n'.join(
-        content_lines[25:26]), parse_mode="HTML")
+        content_lines[24:26]), parse_mode="HTML")
     query.message.reply_photo(link + photos[1])
     query.message.reply_text(text='\n'.join(
-        content_lines[28:39]), parse_mode="HTML")
+        content_lines[27:39]), parse_mode="HTML")
     query.message.reply_text(text='\n'.join(
-        content_lines[40:41]), parse_mode="HTML")
+        content_lines[39:41]), parse_mode="HTML")
     query.message.reply_photo(link + photos[2])
     query.message.reply_text(text='\n'.join(
-        content_lines[43:52]), parse_mode="HTML")
+        content_lines[42:52]), parse_mode="HTML")
     query.message.reply_photo(link + photos[3])
     query.message.reply_text(text='\n'.join(
-        content_lines[54:72]), parse_mode="HTML")
+        content_lines[53:72]), parse_mode="HTML")
     query.message.reply_photo(link + photos[4])
     query.message.reply_text(text='\n'.join(
         content_lines[-1:]), reply_markup=reply, parse_mode="HTML")  
