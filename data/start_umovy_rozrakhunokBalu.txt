@@ -19,8 +19,8 @@
 <strong>К4 = 0,3</strong> (іноземна мова)
 <strong>К4 = 0,2</strong> (біологія, хімія, географія, українська література)
 
-<strong>Спеціальні умови вступу:
-Для ознайомлення з переліком категорій вступників, які мають право для вступу по співбесіді та спеціальних умовах (Квота-1 та Квота-2) перейдіть за посиланням <a href="https://drive.google.com/file/d/1e0Ivdny6Bce27hsSYm3vH5zfXkf5qYP7/view?usp=share_link">https://vstup.kpi.kharkov.ua/admission/admission_rules/</a></strong>
+<strong>Спеціальні умови вступу:</strong>
+Для ознайомлення з переліком категорій вступників, які мають право для вступу по співбесіді та спеціальних умовах (Квота-1 та Квота-2) перейдіть за посиланням <a href="http://vstup.kpi.kharkov.ua/admission/instruktsiia-shchodo-vstupu-po-kvoti-2/">http://vstup.kpi.kharkov.ua/admission/instruktsiia-shchodo-vstupu-po-kvoti-2/</a>
 
 <strong>УВАГА! Абітурієнти кафедри КМАД здають документи до Приймальної комісії Навчально-Наукового Інституту Комп’ютерних Наук та Інформаційних Технологій (КНІТ)</strong> 
 
