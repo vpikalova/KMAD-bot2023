@@ -211,22 +211,33 @@ def perevagu(update: Update, context: CallbackContext):
     query.answer()
     reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
     query.message.reply_text(text='\n'.join(
-        content_lines[0:18]), parse_mode="HTML")
-    query.message.reply_text(text='\n'.join(
-        content_lines[18:19]), parse_mode="HTML")
+        content_lines[0:2]), parse_mode="HTML")
     query.message.reply_photo(link + photos[0])
     query.message.reply_text(text='\n'.join(
-        content_lines[21:29]), parse_mode="HTML")
+        content_lines[3:8]), parse_mode="HTML")
     query.message.reply_text(text='\n'.join(
-        content_lines[29:41]), parse_mode="HTML")
+        content_lines[9:14]), parse_mode="HTML")
     query.message.reply_text(text='\n'.join(
-        content_lines[41:60]), parse_mode="HTML") 
+        content_lines[15:22]), parse_mode="HTML")
+    query.message.reply_text(text='\n'.join(
+        content_lines[23:24]), parse_mode="HTML")
+    query.message.reply_text(text='\n'.join(
+        content_lines[25:26]), parse_mode="HTML")
     query.message.reply_photo(link + photos[1])
     query.message.reply_text(text='\n'.join(
-        content_lines[60:]), reply_markup=reply, parse_mode="HTML")  
-    
-
-    
+        content_lines[28:39]), parse_mode="HTML")
+    query.message.reply_text(text='\n'.join(
+        content_lines[40:41]), parse_mode="HTML")
+    query.message.reply_photo(link + photos[2])
+     query.message.reply_text(text='\n'.join(
+        content_lines[43:52]), parse_mode="HTML")
+    query.message.reply_photo(link + photos[3])
+    query.message.reply_text(text='\n'.join(
+        content_lines[54:72]), parse_mode="HTML")
+    query.message.reply_photo(link + photos[4])
+    query.message.reply_text(text='\n'.join(
+        content_lines[74:]), reply_markup=reply, parse_mode="HTML")  
+        
     #reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
     #query.message.reply_text(text=content, reply_markup=reply, parse_mode="HTML")
     
