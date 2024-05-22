@@ -269,6 +269,7 @@ def istoria(update: Update, context: CallbackContext):
     print(len(photos),len(content_list))
     for i in range(len(photos)):
         text_message = content_list[i]
+        print(text_message)
         query.message.reply_text(text= text_message, parse_mode="Markdown")
         link_photo = link + photos[i]
         print(link_photo)
