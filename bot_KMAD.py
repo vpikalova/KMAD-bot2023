@@ -270,11 +270,11 @@ def istoria(update: Update, context: CallbackContext):
     for i in range(len(photos)):
         text_message = content_list[i]
         print(text_message)
-        query.message.reply_text(text= text_message, parse_mode="Markdown")
+        query.message.reply_text(text= text_message, parse_mode="HTML")
         link_photo = link + photos[i]
         print(link_photo)
         query.message.reply_photo(link_photo)
-    query.message.reply_text(text=content_list[-1], reply_markup=reply, parse_mode="Markdown")
+    query.message.reply_text(text=content_list[-1], reply_markup=reply, parse_mode="HTML")
 
 def auditorii(update: Update, context: CallbackContext):
 
