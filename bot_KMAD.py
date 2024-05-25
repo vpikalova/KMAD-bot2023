@@ -237,7 +237,7 @@ def perevagu(update: Update, context: CallbackContext):
         content_lines[53:75]), parse_mode="HTML")
     #query.message.reply_photo(link + photos[4])
     query.message.reply_text(text='\n'.join(
-        content_lines[72:]), reply_markup=reply, parse_mode="HTML")  
+        content_lines[76:]), reply_markup=reply, parse_mode="HTML")  
         
     #reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
     #query.message.reply_text(text=content, reply_markup=reply, parse_mode="HTML")
