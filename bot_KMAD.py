@@ -313,7 +313,7 @@ def vypusnyki(update: Update, context: CallbackContext):
     query = update.callback_query
     query.answer()
     reply = InlineKeyboardMarkup(keyboard_backto_kafedra)
-    print(reply)
+    print(reply, photos[0])
     query.message.reply_text(text='\n'.join(content_lines[:1]), parse_mode="HTML")
     query.message.reply_photo(link + photos[0])
     query.message.reply_photo(link + photos[1])
