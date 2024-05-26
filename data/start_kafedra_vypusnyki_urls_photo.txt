@@ -1,2 +1,2 @@
-images/k_vup_00.png
+images/k_vp_00.png
 images/k_vup_01.png
