@@ -226,7 +226,7 @@ def perevagu(update: Update, context: CallbackContext):
     query.message.reply_photo(link + photos[1])
     query.message.reply_text(text='\n'.join(
         content_lines[27:42]), parse_mode="HTML")
-  query.message.reply_text(text='\n'.join(
+    query.message.reply_text(text='\n'.join(
         content_lines[42:44]), parse_mode="HTML")
     query.message.reply_photo(link + photos[2])
     query.message.reply_text(text='\n'.join(
