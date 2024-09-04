@@ -77,9 +77,9 @@ keyboard_mozhlyvosti = [
     [InlineKeyboardButton("Проєктне навчання",
                           callback_data="proektnnavch")],
     [InlineKeyboardButton("Дуальна освіта", callback_data="dualosvita")],
-    [InlineKeyboardButton("Працевлаштування",
+    [InlineKeyboardButton("Академічна мобільність",
                           callback_data="pratsevlashuv")],
-    [InlineKeyboardButton("Практика", callback_data="praktika")],
+    [InlineKeyboardButton("Практика та Працевлаштування", callback_data="praktika")],
 ]
 keyboard_umovy = [
     [InlineKeyboardButton("Вступ на Бакалаврат на основі ПЗСО(після 11 класів)",
