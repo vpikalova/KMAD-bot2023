@@ -378,15 +378,15 @@ def praktika(update: Update, context: CallbackContext):
     query.answer()
 
     reply = InlineKeyboardMarkup(keyboard_backto_mozhlyvosti)
-    query.message.reply_text(
-        text=content, reply_markup=reply, parse_mode="HTML")
+    #query.message.reply_text(
+    #    text=content, reply_markup=reply, parse_mode="HTML")
     query.message.reply_text(text='\n'.join(
         content[0:11]), parse_mode=ParseMode.HTML)
     query.message.reply_text(text='\n'.join(
         content[12:26]), parse_mode=ParseMode.HTML)
     query.message.reply_text(text='\n'.join(
         content[27:30]), parse_mode=ParseMode.HTML)
-    query.message.reply_photo(link + photos[1])
+    query.message.reply_photo(link + photos[0])
     query.message.reply_text(text='\n'.join(
         content[32:37]),reply_markup=reply, parse_mode=ParseMode.HTML)
 
