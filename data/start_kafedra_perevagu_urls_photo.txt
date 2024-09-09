@@ -3,4 +3,4 @@ images/m_p_01.png
 images/m_p_02.png
 images/m_p_03.png
 images/m_p_04.png
-images/m_p_05.png
+images/m_p_05.jpg
