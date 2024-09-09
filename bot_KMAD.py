@@ -383,9 +383,9 @@ def praktika(update: Update, context: CallbackContext):
     query.message.reply_photo(link + photos[0])
     query.message.reply_text(text='\n'.join(
         content[0:4]), parse_mode=ParseMode.HTML)
+    query.message.reply_photo(link + photos[1])
     query.message.reply_text(text='\n'.join(
         content[5:10]), parse_mode=ParseMode.HTML)
-    query.message.reply_photo(link + photos[1])
     query.message.reply_text(text='\n'.join(
         content[12:25]), parse_mode=ParseMode.HTML)
     query.message.reply_text(text='\n'.join(
