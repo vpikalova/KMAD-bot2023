@@ -390,7 +390,7 @@ def praktika(update: Update, context: CallbackContext):
         content[12:25]), parse_mode=ParseMode.HTML)
     query.message.reply_text(text='\n'.join(
         content[27:29]), parse_mode=ParseMode.HTML)
-    
+    query.message.reply_photo(link + photos[1])
     query.message.reply_text(text='\n'.join(
         content[32:37]),reply_markup=reply, parse_mode=ParseMode.HTML)
 
