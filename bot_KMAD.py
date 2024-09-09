@@ -360,7 +360,7 @@ def pratsevlashuv(update: Update, context: CallbackContext):
     reply = InlineKeyboardMarkup(keyboard_backto_mozhlyvosti)
     #query.message.reply_text(text=content, parse_mode=ParseMode.HTML)
     #query.message.reply_photo(link + photos[0],reply_markup=reply)
-    №query.message.reply_photo(link + photos[0])
+    #query.message.reply_photo(link + photos[0])
     query.message.reply_text(text='\n'.join(
         content[0:6]), reply_markup=reply, parse_mode=ParseMode.HTML)
     
