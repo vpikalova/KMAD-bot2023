@@ -350,24 +350,9 @@ def dualosvita(update: Update, context: CallbackContext):
 def pratsevlashuv(update: Update, context: CallbackContext):
 
     content = read_content(link +
-                           contents['start']['next_menu']['mozhlyvosti']['next_menu']['praktika']['text'][0])
-    query = update.callback_query
-    query.answer()
-
-    reply = InlineKeyboardMarkup(keyboard_backto_mozhlyvosti)
-    query.message.reply_text(
-        text=content, reply_markup=reply, parse_mode="HTML")
-
-
-    
-
-def praktika(update: Update, context: CallbackContext):
-
-
-    content = read_content(link +
-                           contents['start']['next_menu']['mozhlyvosti']['next_menu']['praktika']['text'][0])
+                           contents['start']['next_menu']['mozhlyvosti']['next_menu']['pratsevlashuv']['text'][0])
     photos = read_content(link +
-                          contents['start']['next_menu']['mozhlyvosti']['next_menu']['praktika']['photo'][0])
+                          contents['start']['next_menu']['mozhlyvosti']['next_menu']['pratsevlashuv']['photo'][0])
     photos = photos.split('\n')
     content = content.split('\n')
     query = update.callback_query
@@ -386,6 +371,17 @@ def praktika(update: Update, context: CallbackContext):
     query.message.reply_text(text='\n'.join(
         content[28:]),reply_markup=reply, parse_mode=ParseMode.HTML)
 
+    
+
+def praktika(update: Update, context: CallbackContext):
+    content = read_content(link +
+                           contents['start']['next_menu']['mozhlyvosti']['next_menu']['praktika']['text'][0])
+    query = update.callback_query
+    query.answer()
+
+    reply = InlineKeyboardMarkup(keyboard_backto_mozhlyvosti)
+    query.message.reply_text(
+        text=content, reply_markup=reply, parse_mode="HTML")
 
 # -------------------------------**   end block mozhlyvosti  **----------------------------
 
